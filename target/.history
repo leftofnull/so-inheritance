@@ -9,3 +9,15 @@ clean
 compile
 console
 exit
+console
+clean
+compile
+console
+clean
+compile
+console
+clean
+compile
+console
+clean
+exit

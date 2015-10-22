@@ -11,5 +11,5 @@ trait AppConfig extends ModuleConfig {
   def config: Config = ConfigFactory.load()
   def conn = config.as[ModuleConfiguration]("stackoverflow.conn")
 
-  val name = config.as[String]("stackoverflow.name")
+  def name = config.as[String]("stackoverflow.name")
 }

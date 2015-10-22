@@ -2,6 +2,7 @@ package com.stackoverflow.question
 
 import com.stackoverflow.module._
 import com.stackoverflow.question.AppConfig
+import com.typesafe.config.ConfigFactory
 
 package main {
   trait DataConfig extends ModuleConfig {
