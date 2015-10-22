@@ -1,2 +1,11 @@
 np
 exit
+compile
+console
+clean
+compile
+console
+clean
+compile
+console
+exit
