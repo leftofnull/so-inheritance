@@ -9,3 +9,6 @@ clean
 compile
 console
 exit
+clean
+console
+exit

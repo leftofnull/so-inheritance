@@ -6,7 +6,7 @@ import net.ceedubs.ficus.readers.ValueReader
 
 trait ModuleConfig {
 
-  implicit val moduleConfigReader: ValueReader[ModuleConfiguration] =
+  implicit lazy val moduleConfigReader: ValueReader[ModuleConfiguration] =
     ValueReader.relative { c => ModuleConfiguration(c.as[String]("hostname")) }
 
   def conn: ModuleConfiguration
